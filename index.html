@@ -145,7 +145,7 @@
                 d=clamp(d,0.,0.8);
                 vec2 displacement=texture(iChannel0,fract(vec2(3.*uv.x,1.*uv.y)+0.1*rt+rt*u_time*0.1)/10.).rg;
                 vec3 col = vec3(d)+0.3;
-                uv-=0.005*rt*(1.-2.*displacement);
+                uv-=0.03*rt*(1.-2.*displacement);
                 uv=vec2(uv.x,abs(uv.y));
                 float bookPages=0.;
                 int index=max(2,int(1.57/(0.02f+0.5*abs(t))));
