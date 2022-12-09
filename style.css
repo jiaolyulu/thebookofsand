@@ -1,0 +1,30 @@
+.wrapper{
+    position: absolute;
+    margin:auto;
+    text-align: center;
+    z-index: 1;
+    top:10px;
+    left:10px;
+}
+
+.textfloat {
+    font-size: 0.9rem;
+    font-family: Roboto;
+    color: rgb(216, 216, 216);
+    font-style: italic;
+}
+
+
+.bgtext {
+    
+}
+
+.highlight {
+    z-index: 2;
+    color: white;
+}
+
+#container {
+    z-index: -1;
+
+}
