@@ -1,13 +1,13 @@
 const express = require('express');
 const path = require('path');
-const gsap = require("gsap")
+
 const app = express();
 const port = process.env.PORT || 8000;
 
 app.use(express.static('public'))
 // sendFile will go here
 app.get('/', function(req, res) {
-  res.sendFile('./index.html');
+  res.sendFile('/index.html');
 });
 
 app.listen(port);
